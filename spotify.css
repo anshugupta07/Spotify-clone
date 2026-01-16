@@ -186,16 +186,16 @@ a {
 }
 
 .card-img {
-    width: 100;
+    width: 100%;
     border-radius: 0.5rem;
 
 }
 
-card-title {
+.card-title {
     font-size: 600;
 }
 
-card-info {
+.card-info {
     font-size: 0.85rem;
     opacity: 0.8;
 }
