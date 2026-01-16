@@ -145,6 +145,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem;
+    z-index: 10;
 }
 
 .sticky-nav-icons {
@@ -204,10 +205,26 @@ a {
 
 .footer {
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .line {
     width: 90%;
-    height: 30%;
+    height: 50%;
     border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+.album-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 0.5rem;
+    margin: 5px;
+}
+
+.album1 {
+    font-size: 0.9rem;
+    margin: 2px;
 }
