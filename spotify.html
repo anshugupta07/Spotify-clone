@@ -152,15 +152,30 @@
                 <div class="player-controls">
                     <img src="asset/player_icon1.png" class="player-control-icon">
                     <img src="asset/player_icon2.png" class="player-control-icon">
-                    <img src="asset/player_icon3.png" class="player-control-icon">
+                    <img src="asset/player_icon3.png" class="player-control-icon" style="height: 2rem;opacity: 1;">
                     <img src="asset/player_icon4.png" class="player-control-icon">
                     <img src="asset/player_icon5.png" class="player-control-icon">
-
                 </div>
-                <div class="progress-bar"></div>
-                <div class="controls"></div>
+                <div class="playback-bar">
+                    <span class="curr-time">0:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-line">3:33</span>
+                </div>
             </div>
+            <div class="controls">
+                <div class="controls-images">
+                    <img src="asset/controls_icon1.png">
+                    <img src="asset/controld_icon2.png">
+                    <img src="asset/controls_icon3.png">
+                    <img src="asset/controls_icon4.png">
+                    <img src="asset/controls_icon5.png">
+                </div>
+
+                <input type="range" class="volume-bar" min="0" max="100">
+            </div>
+
         </div>
+    </div>
 </body>
 
 </html>
