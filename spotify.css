@@ -217,14 +217,67 @@ a {
     opacity: 0.4;
 }
 
-.album-img {
-    height: 60px;
-    width: 60px;
-    border-radius: 0.5rem;
-    margin: 5px;
+.music-player {
+    display: flex;
 }
 
-.album1 {
+.album {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 25%;
+    min-width: 250px;
+}
+
+
+.album img {
+    height: 56px;
+    width: 56px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.album-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.song-name {
     font-size: 0.9rem;
-    margin: 2px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.artist-name {
+    font-size: 0.75rem;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.album-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-left: 1rem;
+}
+
+.album-actions img {
+    height: 20px;
+    width: 20px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.album-actions img:hover {
+    opacity: 1;
+}
+
+
+.player {
+    width: 50%;
+}
+
+.controls {
+    width: 25%;
 }
